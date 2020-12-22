@@ -34,4 +34,4 @@ php artisan serve
 
         
 ![Alt text](/main.png?raw=true "login")
-![Alt text](/page.png?raw=true )
+
