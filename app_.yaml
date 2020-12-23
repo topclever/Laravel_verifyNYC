@@ -1,0 +1,21 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+env_variables:
+  APP_LOG: errorlog
+  APP_DEBUG: true
+  APP_KEY: base64:XH82KbGn74EmCZ1J7yI97b379NkenXM+LhWaOI3rHqk=
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  DB_DATABASE: verifynyc
+  DB_USERNAME: root
+  DB_PASSWORD: 
+  DB_SOCKET: "/cloudsql/neural-theory-296101:us-central1:verifynyc1"
+
+beta_settings:
+  cloud_sql_instances: "neural-theory-296101:us-central1:verifynyc1"
